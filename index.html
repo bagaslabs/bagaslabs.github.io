@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#111916">
+  <meta name="description" content="Bagas Wicaksono — Electrical Engineering student exploring software, connected hardware, and practical automation.">
+  <meta property="og:title" content="Bagas Wicaksono — Software × Electrical Engineering">
+  <meta property="og:description" content="A personal portfolio at the intersection of code, circuits, and connected systems.">
+  <meta property="og:type" content="website">
+  <title>Bagas Wicaksono — Software × Electrical Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <script defer src="app.js"></script>
+</head>
+<body class="min-h-screen bg-page font-sans text-ink antialiased selection:bg-signal/30 selection:text-ink">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="floating-nav" aria-label="Main navigation">
+      <div class="nav-links" id="nav-links">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#recognition" class="nav-link">Recognition</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <span class="nav-divider" aria-hidden="true"></span>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch theme">
+          <i data-lucide="sun" class="theme-icon theme-icon-light" aria-hidden="true"></i>
+          <i data-lucide="moon" class="theme-icon theme-icon-dark" aria-hidden="true"></i>
+        </button>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" class="relative z-10">
+    <section class="hero section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] grid grid-cols-1 md:grid-cols-[minmax(0,1.12fr)_minmax(280px,0.88fr)] items-center gap-10 lg:gap-[clamp(48px,7vw,100px)] min-h-[min(840px,100svh)] pt-[132px] pb-[88px] max-md:gap-[42px] max-md:pt-[124px] max-md:pb-[60px]" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Electrical Engineering <span class="eyebrow-cross">×</span> Software</p>
+        <h1 class="hero-title font-display" id="hero-title">Bagas <span>Wicaksono<span class="hero-title-period text-signal">.</span></span></h1>
+        <p class="hero-role">Electrical Engineering Student <span>·</span> University of Jember</p>
+        <p class="hero-headline font-display">I build software that connects code to real-world systems.</p>
+        <p class="hero-bio">From Lua experiments and Go services to C++ and connected hardware, I’m interested in the space where software meets electronics — automation, reverse engineering, and small systems that do useful work.</p>
+        <div class="hero-cta-row">
+          <a class="button-primary" href="#contact" data-contact-cta>
+            <span>Discuss a project</span><i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+          <a class="button-secondary" href="#" data-cv-link>
+            <i data-lucide="file-down" aria-hidden="true"></i><span>Download CV</span>
+          </a>
+        </div>
+        <p class="hero-note"><span class="note-dot" aria-hidden="true"></span><span>From scripts to sensors — one system at a time.</span><span class="note-index">BW / 001</span></p>
+      </div>
+
+      <div class="hero-visual" aria-label="Profile portrait and engineering signal motif">
+        <div class="visual-index mono-text font-mono">PROFILE / 01</div>
+        <div class="portrait-frame">
+          <div class="portrait-topline"><span>UJ · ELECTRICAL ENGINEERING</span><span class="portrait-live"><span aria-hidden="true"></span> FIELD NOTES</span></div>
+          <div class="portrait-image-wrap">
+            <img id="profile-photo" class="portrait-image" src="https://scontent.cdninstagram.com/v/t51.75761-19/505442986_18049573664413301_2070366876105245266_n.jpg?_nc_cat=111&amp;ig_cache_key=GKpyIB51Vp3a-R9AAFIC-Vy0a7scbvEnAQAB0j-ccb7-5&amp;ccb=7-5&amp;_nc_sid=669407&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&amp;_nc_ohc=tPDusaGhZnYQ7kNvwGGwZtQ&amp;_nc_oc=AdqzSIrafIPCz427qetu-tNXrLxPF5TmFzZipserz3ystm4ldZrqTQbS0wxOXsAhURo&amp;_nc_zt=24&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_gid=J7nt6LTqwlWO7rglMWRXUQ&amp;_nc_ss=7baaf&amp;oh=00_AQMRAaqmkFwnglGDgJPjIGL8gauyTOUn2VsymbXuUTfn3Q&amp;oe=6AD9BEEC" alt="Portrait of Bagas Wicaksono" width="560" height="700" fetchpriority="high">
+            <div id="profile-fallback" class="portrait-fallback" hidden>
+              <svg class="portrait-fallback-art" viewBox="0 0 560 650" fill="none" aria-hidden="true">
+                <defs><pattern id="portrait-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="currentColor" stroke-opacity=".12" stroke-width="1"/></pattern><linearGradient id="portrait-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f3c31"/><stop offset="1" stop-color="#111916"/></linearGradient></defs>
+                <rect width="560" height="650" fill="url(#portrait-wash)"/><rect width="560" height="650" fill="url(#portrait-grid)"/>
+                <path d="M-30 470H95V415H170V350H247V291H335V225H442V154H590" stroke="#9bd9c7" stroke-width="2" stroke-opacity=".72"/>
+                <path d="M75 -20V102H145V165H232V226M390 650V563H446V504H520V428H590" stroke="#d6a368" stroke-width="2" stroke-opacity=".75" stroke-dasharray="5 8"/>
+                <g fill="#111916" stroke="#9bd9c7" stroke-width="2"><circle cx="95" cy="470" r="5"/><circle cx="170" cy="350" r="5"/><circle cx="335" cy="225" r="5"/><circle cx="442" cy="154" r="5"/></g>
+                <path d="M178 250h204v210H178z" stroke="#9bd9c7" stroke-opacity=".38"/><path d="M202 274h156v162H202z" stroke="#9bd9c7" stroke-opacity=".65"/><path d="M280 274v162M202 355h156" stroke="#9bd9c7" stroke-opacity=".35"/>
+                <text x="24" y="610" fill="#9bd9c7" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2">SIGNAL / PROFILE 01</text>
+                <text x="536" y="32" text-anchor="end" fill="#d6a368" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">UJ · EE</text>
+              </svg>
+              <img class="portrait-fallback-photo" src="data:image/png;base64,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" alt="Portrait of Bagas Wicaksono" width="87" height="87"><small>Software · circuits · curiosity</small>
+            </div>
+            <div class="portrait-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="portrait-bottomline"><span class="mono-text font-mono">CODE / CIRCUITS / CURIOSITY</span><span class="portrait-coordinates">JEMBER / INDONESIA</span></div>
+        </div>
+        <svg class="signal-trace" viewBox="0 0 260 220" fill="none" aria-hidden="true">
+          <path d="M4 36H68V76H114V116H170V154H256" />
+          <path d="M58 4V36M114 76V54H164V28H222" />
+          <path d="M170 154V194H214" />
+          <circle cx="68" cy="76" r="3.5" /><circle cx="114" cy="116" r="3.5" /><circle cx="170" cy="154" r="3.5" /><circle cx="222" cy="28" r="3.5" />
+        </svg>
+        <div class="visual-caption mono-text font-mono"><span>FIG. 01</span><span>SOFTWARE ↔ HARDWARE</span></div>
+      </div>
+    </section>
+
+    <div class="focus-strip section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-[26px] min-h-[78px] max-md:grid-cols-[1fr_auto] max-md:gap-[10px] max-md:py-[18px]" aria-label="Technical focus areas">
+      <p class="focus-label mono-text font-mono">CURRENT INTERESTS</p>
+      <div class="focus-items flex flex-wrap items-center justify-around gap-x-[22px] gap-y-3 max-md:justify-start max-md:gap-x-4 max-md:gap-y-2"><span>Software systems</span><span>Reverse engineering</span><span>IoT & embedded</span><span>Automation</span></div>
+      <span class="focus-end mono-text font-mono">01—04</span>
+    </div>
+
+    <section class="section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] section-block pt-[118px] max-lg:pt-24 max-md:pt-[86px] projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading section-heading-split mb-11 max-md:mb-[29px] grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(250px,0.58fr)] items-end gap-[50px] max-md:gap-[18px] max-md:items-start">
+        <div>
+          <p class="section-kicker mono-text font-mono">01 / SELECTED EXPERIMENTS</p>
+          <h2 class="section-title font-display" id="projects-title">Projects & prototypes.</h2>
+        </div>
+        <p class="section-intro">A small collection of concept projects across automation, networking, and physical computing. Demo concepts are clearly marked until real project details are added.</p>
+      </div>
+      <div id="featured-projects" class="featured-projects mb-4" aria-live="polite"></div>
+      <div id="project-grid" class="project-grid grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:gap-3" aria-label="Project concepts"></div>
+    </section>
+
+    <section class="section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] section-block pt-[132px] max-lg:pt-24 max-md:pt-[86px] recognition-section" id="recognition" aria-labelledby="recognition-title">
+      <div class="section-heading recognition-heading mb-11 max-md:mb-[29px] grid grid-cols-[1fr_minmax(180px,0.7fr)] items-end gap-x-10 max-md:grid-cols-1 max-md:gap-y-[17px]">
+        <p class="section-kicker mono-text font-mono">02 / RECOGNITION</p>
+        <h2 class="section-title font-display" id="recognition-title">Progress, over time.</h2>
+        <p class="section-intro">A few milestones from school and extracurricular work — presented simply, without inflated claims.</p>
+      </div>
+      <div class="recognition-layout grid grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] gap-[clamp(36px,7vw,92px)] pt-8 max-md:grid-cols-1 max-md:gap-[38px] max-md:pt-[25px]">
+        <div class="academic-record">
+          <div class="record-head"><span class="mono-text font-mono">ACADEMIC RECORD</span><span class="record-rule" aria-hidden="true"></span></div>
+          <div class="rank-row grid grid-cols-[82px_1fr_44px] items-center gap-4 min-h-[66px] max-md:grid-cols-[75px_1fr_40px] max-md:gap-3 max-md:min-h-[58px]"><span class="rank-grade">GRADE 10</span><span class="rank-track"><span class="rank-fill rank-fill-third"></span></span><strong class="font-display">03<span>RD</span></strong></div>
+          <div class="rank-row grid grid-cols-[82px_1fr_44px] items-center gap-4 min-h-[66px] max-md:grid-cols-[75px_1fr_40px] max-md:gap-3 max-md:min-h-[58px]"><span class="rank-grade">GRADE 11</span><span class="rank-track"><span class="rank-fill rank-fill-first"></span></span><strong class="font-display">01<span>ST</span></strong></div>
+          <div class="rank-row grid grid-cols-[82px_1fr_44px] items-center gap-4 min-h-[66px] max-md:grid-cols-[75px_1fr_40px] max-md:gap-3 max-md:min-h-[58px]"><span class="rank-grade">GRADE 12</span><span class="rank-track"><span class="rank-fill rank-fill-second"></span></span><strong class="font-display">02<span>ND</span></strong></div>
+          <p class="record-footnote">Class ranking during high school, as provided.</p>
+        </div>
+        <div class="recognition-list">
+          <article class="recognition-item grid grid-cols-[60px_1fr_18px] items-start gap-4 py-[22px] max-md:grid-cols-[48px_1fr_16px] max-md:gap-[11px] max-md:py-[19px]">
+            <span class="recognition-number mono-text font-mono">A / 01</span>
+            <div><h3 class="font-display">Best Scout Secretary</h3><p>Recognition for administrative and organizational contribution in scouting.</p></div>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </article>
+          <article class="recognition-item grid grid-cols-[60px_1fr_18px] items-start gap-4 py-[22px] max-md:grid-cols-[48px_1fr_16px] max-md:gap-[11px] max-md:py-[19px]">
+            <span class="recognition-number mono-text font-mono">A / 02</span>
+            <div><h3 class="font-display">Coding Event Winner</h3><p>Recognized for performance in a coding event. Event details can be added when confirmed.</p></div>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] section-block pt-[132px] max-lg:pt-24 max-md:pt-[86px] field-notes-section" aria-label="Video and GitHub activity">
+      <div class="section-heading section-heading-split mb-11 max-md:mb-[29px] grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(250px,0.58fr)] items-end gap-[50px] max-md:gap-[18px] max-md:items-start">
+        <div><p class="section-kicker mono-text font-mono">03 / FIELD NOTES</p><h2 class="section-title font-display">What I’m exploring.</h2></div>
+        <p class="section-intro">Notes from the desk and activity from the public code workspace. The page keeps unavailable data clearly marked.</p>
+      </div>
+      <div class="field-notes-grid grid grid-cols-2 gap-4 max-md:grid-cols-1 max-md:gap-3">
+        <section class="video-panel panel-surface p-[22px] max-md:p-[17px]" aria-labelledby="video-title">
+          <div class="panel-label-row"><span class="mono-text font-mono">VIDEO / 001</span><span class="panel-status"><span aria-hidden="true"></span> IN PREPARATION</span></div>
+          <div class="video-art" aria-hidden="true">
+            <div class="video-art-grid"></div>
+            <svg viewBox="0 0 620 180" preserveAspectRatio="xMidYMid meet" fill="none">
+              <path d="M0 112H88L108 112L126 65L148 145L170 91L192 112H246L269 112L290 37L314 155L337 82L358 112H419L441 112L459 70L478 132L499 112H620" />
+              <path class="trace-secondary" d="M0 138H60V125H90V150H118V138H188M420 50H457V29H490V50H532V70H620" />
+              <circle cx="126" cy="65" r="4"/><circle cx="290" cy="37" r="4"/><circle cx="459" cy="70" r="4"/>
+            </svg>
+            <span class="video-coord mono-text font-mono">SIGNAL / AWAITING INPUT</span>
+          </div>
+          <div class="video-copy"><div><p class="section-kicker mono-text font-mono">LATEST VIDEO</p><h3 id="video-title" class="font-display">Video preview coming soon</h3><p>A featured video will appear here once a published URL is available.</p></div><span class="placeholder-stamp mono-text font-mono">PLACEHOLDER</span></div>
+          <a class="text-link" href="https://www.youtube.com/@bagaswko" data-youtube-channel target="_blank" rel="noreferrer" aria-label="Visit Bagas Wicaksono's YouTube channel">Visit YouTube channel <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </section>
+
+        <section class="github-panel panel-surface p-[22px] max-md:p-[17px]" aria-labelledby="github-title">
+          <div class="panel-label-row"><span class="mono-text font-mono">CODE / ACTIVITY</span><span class="panel-status panel-status-neutral">PUBLIC PROFILE</span></div>
+          <div class="github-heading"><div><p class="section-kicker mono-text font-mono">GITHUB CONTRIBUTIONS</p><h3 id="github-title" class="font-display">Building in public.</h3></div><a class="icon-link" href="https://github.com/bagaslabs" data-github-profile target="_blank" rel="noreferrer" aria-label="Open GitHub profile"><i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+          <p class="github-copy">Contribution activity is loaded from a public chart service. If the chart is unavailable, the profile link remains available.</p>
+          <div class="contribution-frame">
+            <img id="contribution-graph" src="https://ghchart.rshah.org/86d4c1/bagaslabs" alt="GitHub contribution graph for bagaslabs" loading="lazy" width="720" height="150">
+            <div class="graph-fallback" id="graph-fallback" hidden><i data-lucide="chart-no-axes-column" aria-hidden="true"></i><span>Contribution graph unavailable.</span><a href="https://github.com/bagaslabs" data-github-profile target="_blank" rel="noreferrer">View activity on GitHub <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+          </div>
+          <div class="github-foot"><span class="mono-text font-mono">SOURCE: GITHUB / BAGASLABS</span><a class="text-link" href="https://github.com/bagaslabs" data-github-profile target="_blank" rel="noreferrer">Explore repositories <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] about-tools-section grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] gap-[clamp(48px,8vw,120px)] pt-[144px] max-lg:pt-[110px] max-md:gap-[54px] max-md:pt-[94px]" id="about" aria-labelledby="about-title">
+      <div class="about-column">
+        <p class="section-kicker mono-text font-mono">04 / ABOUT & EXPERIENCE</p>
+        <h2 class="section-title font-display" id="about-title">Curious about how things work.</h2>
+        <div class="about-prose"><p>I’m an Electrical Engineering student at the University of Jember, interested in the relationship between software and the physical world. That means exploring systems from more than one angle: writing code, understanding how data moves, and experimenting with devices that can sense or control their environment.</p><p>My interests include Lua game-bot experiments, reverse engineering, Go and C++ development, and IoT automation with platforms such as Raspberry Pi and Arduino. I enjoy learning by taking systems apart, asking better questions, and building small prototypes to test an idea.</p></div>
+        <div class="experience-entry grid grid-cols-[40px_1fr] gap-[15px] pt-[22px] mt-6"><div class="experience-symbol"><i data-lucide="users-round" aria-hidden="true"></i></div><div><p class="mono-text experience-label font-mono">ORGANIZATION / 2025–2026</p><h3 class="font-display">Scout Organization Secretary</h3><p>Supported administration, documentation, and the coordination of organizational activities.</p></div></div>
+        <div class="education-entry grid grid-cols-[40px_1fr] gap-[15px] pt-[19px] mt-[18px]"><span class="education-marker" aria-hidden="true"></span><div><p class="mono-text experience-label font-mono">EDUCATION / PRESENT</p><h3 class="font-display">University of Jember</h3><p>Electrical Engineering</p></div></div>
+      </div>
+      <div class="tools-column" aria-labelledby="tools-title">
+        <div class="tools-heading"><p class="section-kicker mono-text font-mono">05 / DAILY TOOLKIT</p><h2 class="tools-title font-display" id="tools-title">Tools of the trade.</h2><p>Tools I use or explore across development, design, and content work.</p></div>
+        <div class="tools-grid grid grid-cols-4" id="tools-grid">
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="vscode"><span class="tool-mark"><img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" alt="" loading="lazy"><i data-lucide="code-2" aria-hidden="true"></i></span><span>VS Code</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="go"><span class="tool-mark"><img src="https://cdn.simpleicons.org/go/00ADD8" alt="" loading="lazy"><i data-lucide="terminal" aria-hidden="true"></i></span><span>Go</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="cpp"><span class="tool-mark"><img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="" loading="lazy"><i data-lucide="braces" aria-hidden="true"></i></span><span>C++</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="postman"><span class="tool-mark"><img src="https://cdn.simpleicons.org/postman/FF6C37" alt="" loading="lazy"><i data-lucide="send" aria-hidden="true"></i></span><span>Postman</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="codex"><span class="tool-mark tool-mark-fallback"><i data-lucide="terminal-square" aria-hidden="true"></i></span><span>Codex</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="figma"><span class="tool-mark"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="" loading="lazy"><i data-lucide="figma" aria-hidden="true"></i></span><span>Figma</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="capcut"><span class="tool-mark"><img src="https://cdn.simpleicons.org/capcut/FFFFFF" alt="" loading="lazy"><i data-lucide="scissors" aria-hidden="true"></i></span><span>CapCut</span></div>
+          <div class="tool-item flex flex-col items-start gap-3 min-w-0 min-h-[108px] py-[19px] px-3 max-md:min-h-[95px] max-md:px-2 max-[380px]:px-[6px]" data-tool="filmora"><span class="tool-mark"><img src="https://cdn.simpleicons.org/wondersharefilmora/00A7E1" alt="" loading="lazy"><i data-lucide="clapperboard" aria-hidden="true"></i></span><span>Filmora</span></div>
+        </div>
+        <div class="tools-note"><span class="mono-text font-mono">STACK NOTE</span><span>Brand marks are illustrative; labels remain visible if a logo asset fails to load.</span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] contact-section relative grid grid-cols-[minmax(0,1fr)_auto] gap-[30px] items-end mt-[145px] pt-[52px] px-[clamp(25px,5vw,68px)] pb-[38px] overflow-hidden max-md:grid-cols-1 max-md:gap-7 max-md:mt-[93px] max-md:pt-[37px] max-md:px-[21px] max-md:pb-[25px]" id="contact" aria-labelledby="contact-title">
+      <div class="contact-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="contact-content"><p class="section-kicker mono-text font-mono">06 / OPEN CHANNEL</p><h2 id="contact-title" class="font-display">Have a problem worth solving?</h2><p>I’m always interested in thoughtful conversations about software, hardware, automation, and things that sit between them.</p><a class="button-primary button-contact" href="#contact" data-contact-cta><span>Discuss a project</span><i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+      <div class="contact-index mono-text font-mono"><span>BW / CONTACT</span><span>JEMBER, INDONESIA</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap mx-auto w-[calc(100%-64px)] max-w-[1160px] max-md:w-[calc(100%-36px)] max-[380px]:w-[calc(100%-28px)] flex items-center justify-between gap-5 min-h-[90px] max-md:items-start max-md:flex-col-reverse max-md:justify-center max-md:gap-3 max-md:min-h-[112px] max-md:py-[22px]">
+    <p>© <span id="current-year">2026</span> Bagas Wicaksono. Built with curiosity.</p>
+    <nav class="social-links" aria-label="Social media">
+      <span class="social-unavailable" data-fallback="X" aria-label="X profile not configured" title="X profile not configured"><img src="https://cdn.simpleicons.org/x/808B85" alt="" loading="lazy"><span class="social-fallback" aria-hidden="true">X</span><span class="sr-only">X profile not configured</span></span>
+      <a href="https://www.instagram.com/bagsss_w/" data-fallback="IG" target="_blank" rel="noreferrer" aria-label="Instagram"><img src="https://cdn.simpleicons.org/instagram/808B85" alt="" loading="lazy"><span class="social-fallback" aria-hidden="true">IG</span></a>
+      <a href="https://www.linkedin.com/in/bagas-wicaksono-773337434/" data-fallback="in" target="_blank" rel="noreferrer" aria-label="LinkedIn"><img src="https://cdn.simpleicons.org/linkedin/808B85" alt="" loading="lazy"><span class="social-fallback" aria-hidden="true">in</span></a>
+      <a href="https://www.youtube.com/@bagaswko" data-fallback="YT" target="_blank" rel="noreferrer" aria-label="YouTube"><img src="https://cdn.simpleicons.org/youtube/808B85" alt="" loading="lazy"><span class="social-fallback" aria-hidden="true">YT</span></a>
+    </nav>
+  </footer>
+
+  <dialog class="project-dialog scrollbar-gutter-stable" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" type="button" id="dialog-close" aria-label="Close project details"><i data-lucide="x" aria-hidden="true"></i></button>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="site-toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
